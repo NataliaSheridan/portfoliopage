@@ -1,0 +1,119 @@
+header{
+    background-color:rgb(169, 231, 133);
+    text-align:center;
+    font-size:large;
+    margin: 1rem;
+
+}
+
+.biohazard {
+    Width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#CONTAINER{
+    Width:960PX;
+    margin: 0 Auto;
+    border: 1px solid grey
+}
+#namedate {
+ display:flex;
+ justify-content: space-between;
+ padding: 0px 16px;
+ margin-left: 16px
+}
+
+.tech{
+    display:flex;
+    Justify-content: space-between;
+}
+.about-me {
+  Display:flex;
+}
+Body {
+background-color:palevioletred;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-pic{
+    img
+}
+
+
+.nodejs-icon{
+    max-width: 250px;
+    max-height: 180px;
+    padding: 15px;
+    display:inline-table;
+    float:right;
+}
+.react-1{
+    max-width: 250px;
+    max-height: 180px;
+    padding: 15px;
+    display:inline-table;
+    float:right
+}
+.vue-9{
+    max-width: 250px;
+    max-height: 180px;
+    padding: 15px;
+    display:inline-table;
+    float:right;
+}
+.angular-icon-1{
+    max-width: 250px;
+    max-height: 180px;
+    padding: 15px;
+    display:inline-table;
+    float:right;
+}
+figure{
+max-width:200px;
+}
+img { 
+    width: 180px;
+    height:180px;
+
+}
+body{
+    background-color:rgb(115, 165, 165)
+    ;
+}
+figcaption {
+    text-align:center;
+    font-size:larger;
+    color:#ffff;
+    position: relative;
+    top:-20px;
+    padding: .5rem;
+    font-size:1.25 rem;
+}
+#choose {
+    background-color:#bbb;
+    margin-left:1rem;
+    padding: .5rem;
+    font-size:larger;
+}
+.excited h2 {
+    color:#bef2ff;
+    margin: 2rem;
+}
+.excited div {
+    background-color:#4a4949;
+}
+.excited div h4 {
+    color:pink;
+    margin-bottom: 1rem;
+    
+footer{ 
+    font-size: x-large;
+    color:#fff;
+    text-align: center;
+}
+section {
+    margin:2rem 0;
+}
+
