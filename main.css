@@ -22,8 +22,11 @@
     header {
         background-color: rgb(169, 231, 133);
         text-align: center;
-        font-size: large;
+        font-size: x-large;
         margin: 1rem;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
     }
     
     .biohazard {
@@ -36,13 +39,19 @@
     .profile {
         display: flex;
         justify-content: space-evenly;
+        height: 270px;
+        width: auto;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
     }
     
     #container {
         Width: 960PX;
         margin: 0 Auto;
-        border: 2px solid grey;
+        border: 2px solid black;
         padding: 5px;
+        
     }
     
     #namedate {
@@ -76,9 +85,16 @@
         padding: 15px;
         display: inline-table;
     }
-    
+    .fun{
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
+    }
     #icons img {
         width: 120px;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
     }
     
     #icons figure {
@@ -86,6 +102,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
     }
     
     .react-1 {
@@ -101,6 +118,7 @@
         max-height: 180px;
         padding: 15px;
         display: inline-table;
+        padding-bottom: 50px;
     }
     
     .angular-icon-1 {
@@ -112,6 +130,7 @@
     
     figure {
         max-width: 200px;
+        
     }
     
     img {
@@ -132,31 +151,36 @@
         padding: .5rem;
         font-size: 1.25 rem;
         background-color: cadetblue;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
     }
     
     #choose {
         background-color: #bbb;
         margin-left: 1rem;
-        padding: .5rem;
         font-size: larger;
+        border: 2px solid black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
     }
     
     .excited h2 {
-        color: #bef2ff;
+        color: white;
     }
     
     .excited div {
-        background-color: #4a4949;
+        background-color: #bbb;
         padding: 5px;
     }
     
     .excited div h4 {
-        color: pink;
+        color: black;
         margin-bottom: 1rem;
     }
     
     .excited div h5 {
-        color: pink;
+        color: black;
         margin-bottom: 1rem;
     }
     
